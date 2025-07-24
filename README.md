@@ -69,13 +69,6 @@ The final dashboard includes the following insights:
 
 ---
 
-## 📸 Dashboard Preview
-
-![E-Commerce Sales Comparison Dashboard](dashboard-preview.png)
-
-> Replace `dashboard-preview.png` with your actual image filename.
-
----
 
 ## 🙌 Acknowledgements
 
