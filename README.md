@@ -81,7 +81,6 @@ Special thanks to my mentor **@Tarang Sir** for his continuous support and guida
 
 If you found this project helpful or interesting, feel free to connect:
 
-🔗 LinkedIn: [Sohom Roy](www.linkedin.com/in/sohom-roy-009588314)  
 📧 Email: sohomroyofficial2025@gmail.com
 
 ---
