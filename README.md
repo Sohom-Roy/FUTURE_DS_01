@@ -1,52 +1,96 @@
-# FUTURE_DS_01
-# 📊 Task 1: Business Sales Dashboard from E-commerce Data
+# 📊 E-Commerce Sales Comparison Dashboard (2009–2011)
 
-## 📝 Objective
-Analyze a sample e-commerce dataset to extract meaningful business insights related to product performance, revenue trends, and category-wise sales distribution. Build an interactive dashboard using **Power BI** to support data-driven decisions.
+This project presents a comprehensive Power BI dashboard comparing e-commerce sales between the fiscal years 2009–2010 and 2010–2011. It offers interactive visualizations to help identify patterns in product performance, seasonal trends, customer distribution, and revenue growth.
 
 ---
 
-## 📂 Project Overview
-This task simulates a real-world scenario where a business team needs to understand its sales data to optimize product offerings, marketing strategies, and inventory. The analysis includes:
+## 📌 Objective
 
-- Identifying **best-selling products**
-- Finding **monthly or quarterly sales trends**
-- Analyzing **revenue contribution by category**
-- Spotting **top customers or regions**
+To analyze and compare yearly performance of an e-commerce business using interactive visualizations and KPIs that provide valuable business insights.
 
 ---
 
-## 🛠️ Tools & Technologies Used
-- **Power BI** – Data modeling, visualizations, and DAX calculations
-- **Microsoft Excel** – Initial data cleaning and preprocessing
-- **GitHub** – Version control and documentation
+## 🛠️ Tools Used
+
+- Microsoft Power BI  
+- Power Query Editor  
+- DAX (Data Analysis Expressions)  
+- Excel (for raw dataset preparation)
 
 ---
 
-## 📈 Key Features of the Dashboard
-- KPIs for **Total Sales**, **Orders**, **Top Products**, etc.
-- **Line Charts** to show sales trends over time
-- **Bar and Pie Charts** for category and product breakdown
-- **Interactive filters** for dynamic exploration
-- Clean layout with focused insights and business storytelling
+## 📂 Dataset Overview
+
+The dataset contains transactional sales data with the following fields:
+
+- Invoice No  
+- Stock Code  
+- Description (Product Name)  
+- Quantity  
+- Invoice Date  
+- Unit Price  
+- Country  
+- Customer ID  
 
 ---
 
-## 💡 Skills Gained
-- Data Cleaning & Transformation
-- Dashboard Design & Storytelling
-- DAX Calculations in Power BI
-- Business Analytics
-- GitHub Project Documentation
+## 🧹 Data Cleaning & Preparation
+
+Steps performed in Power BI:
+
+- Filtered out records with 0 Quantity or 0 Unit Price  
+- Removed transactions with missing Product Descriptions or Stock Codes  
+- Handled missing Customer IDs by tagging them as "Unknown"  
+- Separated Date into:
+  - Date  
+  - Time  
+  - Month  
+  - Month Name  
+  - Year  
+- Created new calculated columns:
+  - Total Price = Quantity × Unit Price  
+  - IsKnownCustomer (Boolean for presence of Customer ID)
 
 ---
 
-## 📌 Conclusion
-This task enhanced my skills in turning raw data into insights, building interactive dashboards, and presenting clear business narratives using Power BI.
+## 📊 Dashboard Features
+
+The final dashboard includes the following insights:
+
+| Feature                   | Description                                      |
+|--------------------------|--------------------------------------------------|
+| 📌 KPI Cards              | Total Products Sold, Total Revenue, Unique Customers |
+| 📌 Donut Chart            | Sales Distribution by Country                   |
+| 📌 Line & Bar Combo Chart | Monthly Sales Quantity & Revenue Comparison     |
+| 📌 Line Chart             | Monthly Revenue Trend Comparison                |
+| 📌 Stacked Column Chart   | Top 5 Products Sold (Comparison by Year)        |
+| 📌 Donut Chart            | Products Sold per Year                          |
+| 📌 Slicers                | Filter by Product, Country, Month, and Year     |
 
 ---
 
-## 🔗 Links
-- [Task Description](https://futureinterns.com/data-science-analytics-task-1/)
-- 📬 Contact: sohomroyofficial2025@gmail.com
-- 🌐 [LinkedIn Profile](www.linkedin.com/in/sohom-roy-009588314) 
+## 📸 Dashboard Preview
+
+![E-Commerce Sales Comparison Dashboard](dashboard-preview.png)
+
+> Replace `dashboard-preview.png` with your actual image filename.
+
+---
+
+## 🙌 Acknowledgements
+
+This project was created as part of my Data Analytics Internship at Future Interns.  
+Special thanks to my mentor **@Tarang Sir** for his continuous support and guidance throughout the project.
+
+---
+
+## 📬 Connect with Me
+
+If you found this project helpful or interesting, feel free to connect:
+
+🔗 LinkedIn: [Sohom Roy](www.linkedin.com/in/sohom-roy-009588314)  
+📧 Email: sohomroyofficial2025@gmail.com
+
+---
+
+© 2025 Sohom Roy
